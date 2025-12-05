@@ -1,0 +1,14 @@
+# Core dependencies for Image Captioning API
+fastapi==0.122.0
+uvicorn==0.38.0
+python-multipart==0.0.20
+
+# ML/DL frameworks for BLIP
+torch>=2.0.0
+transformers>=4.30.0
+pillow>=10.0.0
+accelerate>=0.20.0
+
+# Utilities
+python-dotenv==1.2.1
+

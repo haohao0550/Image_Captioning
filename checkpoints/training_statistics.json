@@ -1,0 +1,10 @@
+{
+  "total_epochs": 17,
+  "best_val_loss": 0.97,
+  "best_epoch": 15,
+  "final_train_loss": 0.91,
+  "final_val_loss": 0.9823,
+  "mean_train_val_diff": 0.25898235294117644,
+  "train_loss_trend": "decreasing",
+  "val_loss_trend": "decreasing"
+}

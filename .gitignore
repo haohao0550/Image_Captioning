@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Model weights and large files
+backend/weight/*
+backend/weight/*.pth
+backend/weight/*.h5
+backend/onnx/*.onnx
+*.pth
+*.h5
+*.onnx
+*.pb
+*.keras
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Node.js / Frontend
+node_modules/
+.next/
+out/
+.pnpm-debug.log*
+.npm
+.eslintcache
+.yarn/
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+logs/
+test
+best_model
